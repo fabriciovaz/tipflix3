@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<!--item filme-->
+    <LinearLayout
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_margin="0dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:background="@color/corDeFundo"
+        >
+
+        <ImageView
+            android:id="@+id/poster_1"
+            android:src="@drawable/capitanamerica"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="110dp"
+            android:layout_height="160dp" />
+
+        <TextView
+            android:id="@+id/nome_filme"
+            android:text="Capitão America"
+            android:textAlignment="center"
+            android:textColor="@color/corDeFonteClara"
+            android:textSize="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/id_do_filme"
+            android:text="Capitão America"
+            android:textAlignment="center"
+            android:textColor="@color/corDeFonteClara"
+            android:textSize="10sp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

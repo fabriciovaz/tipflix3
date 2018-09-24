@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a1">110dp</dimen>
+    <dimen name="a2">160dp</dimen>
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/corDeFundo"
+
+    tools:context=".activities.GridFilmeListaActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:text="Sua lista de filmes"
+            android:textSize="20sp"
+            android:textColor="@color/corDeFonteClara"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:layout_gravity="center"
+
+        >
+
+        <!--linha1-->
+        <!--coluna1-->
+
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            >
+
+            <ImageView
+                android:src="@drawable/capitanamerica"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:text="Capitão America"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <!--coluna2-->
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/hitman"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:text="Hitman"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--coluna3-->
+
+        <LinearLayout
+            android:layout_gravity="left|center_vertical"
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:src="@drawable/capitanamerica"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:text="Capitão America"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--linha2-->
+        <!--coluna1-->
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            >
+
+            <ImageView
+                android:src="@drawable/capitanamerica"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:text="Capitão America"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <!--coluna2-->
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/hitman"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:text="Hitman"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--coluna3-->
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:src="@drawable/capitanamerica"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:text="Capitão America"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--linha3-->
+        <!--coluna1-->
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            >
+
+            <ImageView
+                android:src="@drawable/capitanamerica"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:text="Capitão America"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <!--coluna2-->
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/hitman"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:text="Hitman"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--coluna3-->
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:src="@drawable/capitanamerica"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="160dp" />
+
+            <TextView
+                android:text="Capitão America"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>

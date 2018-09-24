@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">tipflixcoverflowitemclick</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_1">1</string>
+    <string name="tab_2">2</string>
+    <string name="tab_3">3</string>
+    <string name="item_2">Filme do dia</string>
+    <string name="item_3">Listas</string>
+    <string name="item_4">Categoria</string>
+    <string name="item_5">Buscar</string>
+    <string name="item_1">Início</string>
+    <string name="SHA1">33:AB:48:BC:8F:64:25:28:6B:DA:88:2D:6D:A7:99:DA:87:C7:57:FB</string>
+    <string name="MD5">27:A3:5B:C9:8B:2C:58:98:1F:93:27:1A:4E:1D:EB:48</string>
+</resources>

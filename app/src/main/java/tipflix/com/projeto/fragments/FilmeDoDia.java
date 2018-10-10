@@ -51,7 +51,7 @@ public class FilmeDoDia extends Fragment {
                              Bundle savedInstanceState) {
       v=inflater.inflate(R.layout.fragment_filme_do_dia, container, false);
 
-        Intent intent = new Intent(v.getContext(), GridFilmeListaActivity.class);
+        Intent intent = new Intent(v.getContext(), FilmeDoDiaActivity.class);
         startActivity(intent);
 
         return v;

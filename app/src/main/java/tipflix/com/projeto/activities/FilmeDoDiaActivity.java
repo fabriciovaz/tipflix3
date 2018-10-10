@@ -23,12 +23,17 @@ public class FilmeDoDiaActivity extends YouTubeBaseActivity implements YouTubePl
     public static final String DEVELOPER_KEY = "AIzaSyA_ZQiqee0d3SYOqSUZ1rNR2-FAMXjQeCw";//chave do desenvolvedor
     private static final String VIDEO_ID = "4V44ew-laC4";
     private static final int RECOVERY_DIALOG_REQUEST = 1;
+    private int aleatorio;
     YouTubePlayerFragment myYouTubePlayerFragment;
 
     TextView dataatual;
     private TextView textoNovaFrase;
 
     private final String liveVideoId = "2ccaHpy5Ewo";
+
+    private String[] filmesIds = {"90bG43JcwRE", "30BIAM8pyto","LKegxGRTYX0","JhY6Yy4wtb4", "xLCn88bfW1o","4V44ew-laC4","2ccaHpy5Ewo"
+
+    };
 
     private String[] frases = {
             "Não te abras com teu amigo, Que ele um outro amigo tem, E o amigo do teu amigo Possui amigos também...\n" +
@@ -57,11 +62,11 @@ public class FilmeDoDiaActivity extends YouTubeBaseActivity implements YouTubePl
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_filme_do_dia);
 
         myYouTubePlayerFragment = (YouTubePlayerFragment)getFragmentManager()
                 .findFragmentById(R.id.youtubeplayerfragment);
-        myYouTubePlayerFragment.initialize(DEVELOPER_KEY, this);
+        myYouTubePlayerFragment.initialize(DEVELOPER_KEY, FilmeDoDiaActivity.this);
 
 
 
@@ -78,10 +83,11 @@ public class FilmeDoDiaActivity extends YouTubeBaseActivity implements YouTubePl
         Random randomico = new Random();
 
         //Informar a quantidade de posições pelo tamanho do Array de forma automática
-        int numeroAleatorio = randomico.nextInt(frases.length);
+        aleatorio = randomico.nextInt(frases.length);
+
 
         //Mostar o texto usando o nome do Array e o comando de número aleatório
-        textoNovaFrase.setText(frases[numeroAleatorio]);
+        textoNovaFrase.setText(frases[aleatorio]);
 
 
     }
@@ -103,7 +109,7 @@ public class FilmeDoDiaActivity extends YouTubeBaseActivity implements YouTubePl
     public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer player,
                                         boolean wasRestored) {
         if (!wasRestored) {
-            player.cueVideo(VIDEO_ID);
+            player.cueVideo(filmesIds[aleatorio]);
         }
     }
     @Override

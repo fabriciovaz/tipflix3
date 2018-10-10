@@ -40,7 +40,7 @@
         <TextView
             android:id="@+id/dataatual"
             android:layout_width="106dp"
-            android:layout_height="30dp"
+            android:layout_height="40dp"
             android:layout_alignEnd="@+id/textView"
             android:layout_below="@+id/textView"
             android:textAlignment="viewEnd"
